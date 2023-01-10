@@ -1,0 +1,27 @@
+pip3 list  in command prompt
+what if we want diffrent versions of request for that we need to create a isolated virtual enviroment for each application and 
+install these dependancies into that virtual isolated enviroment where we have specific packages and different interpreter
+
+python3  -m venv env
+env\Scripts\activate.bat  for windows
+ 
+pip3 install requests==2.9.*
+
+
+Pipenv --venv - to check virtual enviroment we should be in that folder
+C:\Users\nakul\OneDrive\Documents\pythonprogrammes\pythonresume\parentpackage\Pythonpackageindex>
+rm -rf (path to virtual enviroment)
+
+pipenv graph -> to know dependancies in our project
+
+pip3 uninstall requests - request packages will be unistall u can check in your pip file that section will be deleted.
+
+to find the updated packages to run pipenv
+pipenv update --outdated 
+you will get this massege
+All packages are up to date! 
+==to update specific packages 
+pipenv update requests
+
+
+
