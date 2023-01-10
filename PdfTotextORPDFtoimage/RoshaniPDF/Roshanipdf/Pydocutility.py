@@ -1,0 +1,1 @@
+#type Pydoc3 math in terminal to se documentation of math module.

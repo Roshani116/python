@@ -1,0 +1,6 @@
+there are some feature not implemented in python standard library.
+thats where Pypi (Python package index) repository of python packages built by people like you and implemented
+Pypi.org currently 160000 projects registered in this repository.
+
+PIP:
+to install package from pypi we use tool pip 
